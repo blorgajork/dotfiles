@@ -1,5 +1,5 @@
-URxvt*.transparent:     true
-URxvt*.shading:         60
+URxvt*.transparent:     false
+URxvt*.shading:         100
 URxvt*.depth:            32
 
 URxvt.scrollBar:        false
@@ -9,46 +9,46 @@ URxvt.saveLines:        16384
 URxvt*cursorUnderline:  true
 URxvt*cursorBlink:  true
 
-URxvt.font: xft:xos4 Terminus:size=12
+URxvt.font: -misc-tamsyn-medium-r-normal--12-87-100-100-c-60-iso8859-1 
 URxvt.autohint: 0
 ! xft.hintstyle: hintfull
 ! xft.hinting: 1
 xft.antialias: 0
-! URxvt.letterSpace: -3
+URxvt.letterSpace: 0
 
 ! special
-*.foreground:   #aaccff
-*.background:   #222222
-*.cursorColor:  #aaccff
+*.foreground:   #ffffff
+*.background:   #000000
+*.cursorColor:  #ffffff
 
 ! black
-*.color8:       #555555
-*.color0:       #aaaaaa
+*.color0:       #000000
+*.color8:       #222222
 
 ! red
+*.color1:       #ff0000
 *.color9:       #ff5454
-*.color1:       #ab0000
 
 ! green
-*.color10:       #54ff54
-*.color2:      #00ab00
+*.color2:       #00ff33
+*.color10:      #54ff76
 
 ! yellow
-*.color11:       #ffaf54
-*.color3:      #ab5b00
+*.color3:       #ff8c00
+*.color11:      #ffb254
 
 ! blue
-*.color12:       #5599ff
-*.color4:      #0044ab
+*.color4:       #0000ff
+*.color12:      #5757ff
 
 ! magenta
-*.color13:       #9955ff
-*.color5:      #4400ab
+*.color5:       #aaff00
+*.color13:      #c6ff54
 
 ! cyan
-*.color14:       #54ffff
-*.color6:      #00abab
+*.color6:       #00aaff
+*.color14:      #54c6ff
 
 ! white
-*.color15:       #aaaaaa
-*.color7:      #ffffff
+*.color7:       #dddddd
+*.color15:      #ffffff
